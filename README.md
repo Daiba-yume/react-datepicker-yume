@@ -51,3 +51,7 @@ export default MyComponent;
 | `onChange`      | function       | `null`        | Function called when the date is changed       |
 | `locale`        | string         | `"fr-FR"`     | Change the localisation (ex: "fr-FR", "en-US") |
 | `required`      | boolean        | `false`       | Makes the date field required to continue      |
+
+### Auteur
+
+Daïba Yume :purple_heart:
