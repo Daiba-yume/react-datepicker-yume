@@ -1,0 +1,45 @@
+.inputCalendar {
+  padding: 7px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+  border: 2px solid #484545;
+}
+.calendarContainer {
+  position: absolute;
+  border: 1px solid #ccc;
+  border: 5px;
+  margin-top: 5px;
+  background-color: white;
+  z-index: 1;
+  text-align: center;
+  .calendarGrid {
+    display: grid;
+    grid-template-columns: repeat(7, 30px);
+    gap: 5px;
+    padding: 12px;
+    .weekDays {
+      font-weight: bold;
+      font-size: 13px;
+    }
+  }
+}
+.navStyle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 0px;
+  .navLabelStyle {
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+  }
+  .selectStyle {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+  }
+}
